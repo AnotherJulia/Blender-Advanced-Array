@@ -18,15 +18,9 @@ Requires **Blender 5.2 or newer**.
 3. Open the dropdown at the top right and choose **Install from Disk…**, then pick the zip.
 4. Select a mesh object, then **Add Modifier → Advanced Array** (or use the *Advanced Array* tab in the 3D View sidebar, `N`).
 
-All settings live in the modifier panel.
+All settings are in the modifier panel.
 
-## UV offset
-
-Set **UV → UV Offset** (X = U, Y = V) to shift each copy's UVs by that amount times its index. As with the legacy array, there is no UV map field: the offset is applied to all of the mesh's UV maps (up to 4).
-
-Nodes can't list UV maps themselves, so the add-on fills them in when the modifier is added. If you add or rename UV maps afterwards, click **Sync UV Maps** in the *Advanced Array* sidebar tab.
-
-## Development
+## Build
 
 ```
 src/                  the extension (blender_manifest.toml + __init__.py)
