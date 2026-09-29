@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "advanced_array"
+version = "0.2.1"
+name = "Advanced Array"
+tagline = "Blender's Array plus legacy UV offset, caps and combined offsets"
+maintainer = "Julia Bertsch"
+type = "add-on"
+
+blender_version_min = "5.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["Geometry Nodes", "Modeling", "UV"]
